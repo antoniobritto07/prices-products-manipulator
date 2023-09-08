@@ -1,0 +1,71 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #00ff00, #ffffff);
+}
+
+.title {
+  font-size: 85px;
+  color: #FFF;
+  animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+  from {
+    transform: rotateX(90deg)
+  }
+
+  to {
+    transform: rotateX(0deg)
+  }
+}
+
+.carregar-csv-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.button-actions {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-content-information {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title-content-information {
+  margin-top: 50px;
+}
+
+.property-name-product {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.information-label-update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.loading-icon {
+  margin-right: 5px;
+}
