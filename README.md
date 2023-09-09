@@ -4,11 +4,13 @@
 - Depois disso, é preciso dar um "cd .." para voltar um caminho, e da;i de novo damos um "cd backend"ser dado um  "cd backend" seguido de um "npm install" para instalar todas as dependências agora do backend
 
 - Agora, ainda na pasta do backend, é preciso criar um arquivo chamado ".env" para armazenar as variáveis secretas do projeto, que terão a seguinte configuração:
-        PORT=3333 #porta da aplicação
-        MY_SQL_HOST=localhost #host da máquina local
-        MY_SQL_USER=root #usuário padrão da máquina
-        MY_SQL_PASS= #senha do ambiente mysql localmente(lembrar de editar)
-        MY_SQL_DATABASE=shopper_app #nome do banco que será mais à frente criado localmente
+```
+    PORT=3333 #porta da aplicação
+    MY_SQL_HOST=localhost #host da máquina local
+    MY_SQL_USER=root #usuário padrão da máquina
+    MY_SQL_PASS= #senha do ambiente mysql localmente(lembrar de editar)
+    MY_SQL_DATABASE=shopper_app #nome do banco que será mais à frente criado localmente
+```
 
 # Instalando e configurando o MySQL localmente
 - Instalar o MySQL através do link: https://dev.mysql.com/downloads/installer/
