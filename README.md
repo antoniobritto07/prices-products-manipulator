@@ -75,3 +75,4 @@ INSERT INTO packs (pack_id,product_id, qty) VALUES (1020,21,3);
 # Observações
 - Vale lembrar que esses são comandos que foram fornecidos dentro do arquivo .sql
 - Acabou que para mim não ficou tão claro o que seria a tabela packs, umas vez que achei que de fato seria a tabela da entidade pacotes do sistema. Porém, entendi depois que ela era a tabela de relacionamento entre as entidades pacote-produto uma vez que a relação entre ambos é 'n' para 'n'. Por isso que a maior parte relacionada à entidade de pacotes, acabou que não consegui finalizar, visto que fui notar isso muito tarde, e fiquei receoso de alterar a definição das tabelas que foi fornecida pelo arquivo .sql,. Sendo assim, optei por entregar o que já tinha sido feito e já estava dando certo.
+- Imagino que a falta de clareza quanto ao nomes das tabelas acabou gerando um certo retrabalho na hora de desenvolver os models(schemas) das entidades do pequeno sistema.
